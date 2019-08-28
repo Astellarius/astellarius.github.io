@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-astellarius/static/css/main.0a0d8abf.chunk.css",
+    "main.js": "/react-astellarius/static/js/main.4cbcb176.chunk.js",
+    "main.js.map": "/react-astellarius/static/js/main.4cbcb176.chunk.js.map",
+    "runtime~main.js": "/react-astellarius/static/js/runtime~main.f02db357.js",
+    "runtime~main.js.map": "/react-astellarius/static/js/runtime~main.f02db357.js.map",
+    "static/js/2.45975a7f.chunk.js": "/react-astellarius/static/js/2.45975a7f.chunk.js",
+    "static/js/2.45975a7f.chunk.js.map": "/react-astellarius/static/js/2.45975a7f.chunk.js.map",
+    "index.html": "/react-astellarius/index.html",
+    "precache-manifest.6d446d7d88bc6c855e4a18d9d14a57ad.js": "/react-astellarius/precache-manifest.6d446d7d88bc6c855e4a18d9d14a57ad.js",
+    "service-worker.js": "/react-astellarius/service-worker.js",
+    "static/css/main.0a0d8abf.chunk.css.map": "/react-astellarius/static/css/main.0a0d8abf.chunk.css.map",
+    "static/media/bebop.gif": "/react-astellarius/static/media/bebop.acb0f4b4.gif",
+    "static/media/logosm.png": "/react-astellarius/static/media/logosm.2beb025c.png",
+    "static/media/sfusm.jpg": "/react-astellarius/static/media/sfusm.f1bd5006.jpg"
+  }
+}
