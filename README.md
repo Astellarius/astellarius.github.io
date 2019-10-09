@@ -3,7 +3,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Astellarius
 
 Andy Wang's Personal Portfolio!
-Check out the live website at https://astellarius.com/
 
 ## Nav Explained
 

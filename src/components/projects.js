@@ -1,23 +1,26 @@
 import React from 'react';
 
-import '../styles/patch.scss';
-
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import Row from 'react-bootstrap/Row'
 
-import Y19m8d27 from './patches/y19m8d27';
-
-class About extends React.Component {
+class Projects extends React.Component {
 
     render() {
+
         return (
-            <div>
+
+            <div className="main">
                 <Container>
+
                     <Row>
-                        <Y19m8d27 />
+                        <h1> Team Guardian </h1>
+                        <h4> SFU Design Team </h4>
+                        <p> Auto Pilot Developer </p>
                     </Row>
+
                 </Container>
             </div>
+
         ); // About Return
 
     } // About Render
@@ -25,4 +28,4 @@ class About extends React.Component {
 } // Class About
 
 
-export default About;
+export default Projects;

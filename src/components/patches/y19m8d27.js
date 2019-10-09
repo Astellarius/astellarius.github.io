@@ -14,7 +14,11 @@ function y19m8d27() {
                 <h4> Patch 19.8.27 </h4>
             </div>
 
-            <img src={SFU} className="patch_img"/>
+            <img 
+                src={SFU} 
+                className="patch_img"
+                alt="SFU Vancouver Campus"
+            />
 
             <Row>
                 <Col md={{ span: 6, offset: 3 }}>
