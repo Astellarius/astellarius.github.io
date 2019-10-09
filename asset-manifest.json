@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a0d8abf.chunk.css",
+    "main.js": "/static/js/main.ac6a635a.chunk.js",
+    "main.js.map": "/static/js/main.ac6a635a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.0770afe0.js",
+    "runtime~main.js.map": "/static/js/runtime~main.0770afe0.js.map",
+    "static/js/2.89506685.chunk.js": "/static/js/2.89506685.chunk.js",
+    "static/js/2.89506685.chunk.js.map": "/static/js/2.89506685.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a4b99dc36edf51241533d4f4ae16adc5.js": "/precache-manifest.a4b99dc36edf51241533d4f4ae16adc5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0a0d8abf.chunk.css.map": "/static/css/main.0a0d8abf.chunk.css.map",
+    "static/media/bebop.gif": "/static/media/bebop.acb0f4b4.gif",
+    "static/media/logosm.png": "/static/media/logosm.2beb025c.png",
+    "static/media/sfusm.jpg": "/static/media/sfusm.f1bd5006.jpg"
+  }
+}
