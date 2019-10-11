@@ -1,24 +1,69 @@
-* { 
-    font-family: 'Montserrat', sans-serif; 
-    transition: all 1s; 
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import 'global_vars';
+
+* { font-family: 'Montserrat', sans-serif; }
+
+img { width: 100%; }
 
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-thumb { background-color: white; }
 ::-webkit-scrollbar-track { background-color: black; }
 
 .button {
-    
     border: none; 
     color: white;
     background-color: black;
-
     &:hover { 
         color: black;
         background-color: white;
         box-shadow: 3px 3px 0px black;
-    } 
-
+    } // hover
     &:focus { outline: 0; }
-    
+} // button
+
+.light_mode {
+    background-color: white;
+    color: black !important;
+    transition: all 1s; 
+    .navbar-toggler-icon {
+        background-image: none;
+        background-color: black; 
+    }
+}
+
+.dark_mode {
+    background-color: black;
+    color: white !important;
+    transition: all 1s; 
+    .navbar-toggler-icon {
+        background-image: none;
+        background-color: white; 
+    }
+}
+
+.nav_logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-toggler { 
+    border: none; 
+}
+
+.navbar-toggler-icon { 
+    border-radius: 25px; 
+}
+
+@media #{$media} { 
+    .navbar-nav { text-align: center; } 
+} // media navbar-nav
+
+
+
+@import 'hero', 'about', 'patch', 'projects', 'footer';
+
+.greyscale {
+    filter: grayscale( 100% ); 
+    transition: all 1s; 
+    &:hover { filter: grayscale( 0% ); }
 }

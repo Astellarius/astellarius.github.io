@@ -1,0 +1,26 @@
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} // hero.js
+
+@media #{$media} { 
+
+    .intro_h1 {
+        text-align: center;
+    }
+
+    .intro_p { 
+        display: none;
+    }
+
+    .status_h1 {
+        text-align: center;
+    }
+
+    .status_p {
+        padding: 25px;
+    }
+
+} // media navbar-nav

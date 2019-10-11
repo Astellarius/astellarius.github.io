@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
 
 class About extends React.Component {
 
@@ -9,21 +8,21 @@ class About extends React.Component {
 
         return (
 
-            <div className="main">
-                <Container>
-
-                    <Row>
-                        <h1>
-                            I am Andy Wang of NanBread, and I love helping others problem solve like philosophers and live like programmers. 
-                            <br/><br/>
-                            As a self taught Developer, Designer and Thinker, I spent the majority of my school-years helping organizations off the ground, 
-                            from Student Lead Non-Profits to International Conferences and Aerospace Clubs. I am extreamly proud of the communities
-                            I have fostered and belong to, and I dream of exploring the secrets of the stars and galaxies far, far away. 
-                            <br/><br/>
-                            If you get me, let's change the world together! 
-                        </h1>
-                    </Row>
-
+            <div className={this.props.color_mode}>
+                <Container className="about">
+                    <h1>
+                        Delusion, But her feet are sensitive; to the ground She never draws close, but walks on the heads of men.
+                        <br/>
+                        - Homer
+                        <br/><br/>
+                        As a self taught Developer, Designer and Creator, I spend my time reading, talking and listening, 
+                        then creating and organizing projects or events for the communities I belong to. 
+                        <br/><br/>
+                        My hero's are Elon Musk and Socrates, Elon for his inspirations of human capabilities to transform the world for the better
+                        in our pre-techno-dystopian environment, and Socrates for living and dying in pursuit of wisdom. 
+                        <br/><br/>
+                        If you get me, let's change the world together! 
+                    </h1>
                 </Container>
             </div>
 

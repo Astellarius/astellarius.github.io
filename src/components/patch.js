@@ -1,23 +1,23 @@
 import React from 'react';
 
-import '../styles/patch.scss';
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Y19m8d27 from './patches/y19m8d27';
+import Y19m9d9 from './patches/y19m9d9';
 
 class About extends React.Component {
 
     render() {
         return (
-            <div>
+
+            <div className={this.props.color_mode}>
                 <Container>
-                    <Row>
-                        <Y19m8d27 />
-                    </Row>
+                    <Y19m9d9 />
+                    <Y19m8d27 />
                 </Container>
             </div>
+
         ); // About Return
 
     } // About Render
